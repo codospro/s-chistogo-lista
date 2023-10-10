@@ -12,6 +12,18 @@
   background-color: #FEE42A;
 }
 
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .header {
   display: flex;
   align-items: flex-start;
@@ -33,7 +45,21 @@
 }
 
 .cover {
-  margin: 30px 0 30px 21px;
+  min-height: 198px;
+  background-image: url('../images/cover.svg');
+  background-size: 95% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cover__title {
+  margin-left: 21px;
+  color: #FFF;
+  font-family: 'EB Garamond 400';
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
 }
 
 .intro {
