@@ -1,6 +1,37 @@
 .content-section {
-  width: 360px;
-  height: 100px;
+  min-width: 360px;
+}
+
+.content-section_theme_dark {
+  color: #F5F5F5;
+  background-color: #131313;
+}
+
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #FEE42A;
+}
+
+.header {
   padding: 24px 20px;
-  background-color: #9a8f8fe1;
+}
+
+.cover {
+  margin: 30px 0 30px 21px;
+}
+
+.intro {
+  margin: 0 20px 37px 20px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  margin: 40px 20px 60px 20px;
+}
+
+.footer {
+  padding: 20px;
 }
