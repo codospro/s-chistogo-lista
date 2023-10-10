@@ -13,7 +13,23 @@
 }
 
 .header {
+  display: flex;
+  align-items: flex-start;
+  gap: 168px;
+  min-height: 132px;
   padding: 24px 20px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  list-style: none;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
 }
 
 .cover {
