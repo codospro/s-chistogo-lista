@@ -185,7 +185,7 @@ q {
 }
 
 .card {
-  border-radius: 30%;
+  border-radius: 30px;
   padding: 20px;
   line-height: 135%;
 }
