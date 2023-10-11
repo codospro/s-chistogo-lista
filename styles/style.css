@@ -158,6 +158,18 @@ body {
   gap: 32px;
 }
 
+.how-to .card_theme_dark {
+  color: #F5F5F5;
+  border-radius: 30px;
+  background: #343434;
+}
+
+.how-to .card_theme_bright {
+  color: #131313;
+  border-radius: 30px;
+  background: #FEE42A;
+}
+
 .how-to .content-section__subtitle {
   margin: 40px 20px 0 20px;
   align-self: end;
@@ -174,6 +186,35 @@ body {
   color: #F5F5F5;
   font-size: 1.43rem;
   line-height: 135%;
+}
+
+.how-to .cards-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.how-to .card {
+  display: flex;
+  margin: 0 20px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.how-to .card__author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.how-to .card__author-photo {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
 }
 
 .footer {
