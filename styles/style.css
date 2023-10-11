@@ -1,7 +1,6 @@
 body {
   width: 360px;
   margin: 0 auto;
-  background-color: dimgray;
 
   font-family: 'Inter 400', Raleway, sans-serif;
   font-size: 14px;
@@ -41,6 +40,12 @@ body {
   gap: 168px;
   min-height: 132px;
   padding: 24px 20px;
+
+  color: #F5F5F5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 .header__menu-list {
@@ -66,7 +71,7 @@ body {
 .cover__title {
   margin-left: 21px;
   color: #FFF;
-  font-family: 'EB Garamond 400';
+  font-family: 'EB Garamond 400', Raleway, sans-serif;;
   font-size: 4.5rem;
   font-style: normal;
   font-weight: 400;
@@ -111,7 +116,6 @@ body {
 
 .reasons {
   display: flex;
-  min-height: 1368px;
   padding: 40px 20px;
   flex-direction: column;
   align-items: flex-start;
@@ -120,7 +124,7 @@ body {
 
 .reasons .content-section__subtitle {
   align-self: end;
-  font-family: 'EB Garamond 500';
+  font-family: 'EB Garamond 500', Raleway, sans-serif;
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 500;
@@ -128,7 +132,7 @@ body {
 }
 
 .reasons .content-section__introduction {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 135%
@@ -142,7 +146,7 @@ body {
 }
 
 .reasons .content-section__list-accent {
-  font-family: 'Inter 700';
+  font-family: 'Inter 700', Raleway, sans-serif;
   font-weight: 700;
   line-height: 135%;
 }
@@ -174,8 +178,8 @@ body {
   margin: 40px 20px 0 20px;
   align-self: end;
   color: #F5F5F5;
-  font-family: 'EB Garamond 500';
-  font-size: 2rem;
+  font-family: 'EB Garamond 500', Raleway, sans-serif;
+  font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 115%;
@@ -184,8 +188,32 @@ body {
 .how-to .content-section__introduction {
   margin: 0 20px;
   color: #F5F5F5;
-  font-size: 1.43rem;
+  font-size: 20px;
   line-height: 135%;
+}
+
+.how-to .card__author-name {
+  color: #F5F5F5;
+  font-family: 'Inter 700';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.how-to .card__title {
+  font-family: 'EB Garamond 500';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.how-to .card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .how-to .cards-list {
@@ -193,6 +221,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
+  font-size: 16px;
 }
 
 .how-to .card {
