@@ -158,6 +158,24 @@ body {
   gap: 32px;
 }
 
+.how-to .content-section__subtitle {
+  margin: 40px 20px 0 20px;
+  align-self: end;
+  color: #F5F5F5;
+  font-family: 'EB Garamond 500';
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.how-to .content-section__introduction {
+  margin: 0 20px;
+  color: #F5F5F5;
+  font-size: 1.43rem;
+  line-height: 135%;
+}
+
 .footer {
   display: flex;
   padding: 20px;
