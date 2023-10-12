@@ -159,11 +159,13 @@ q {
 }
 
 .content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
   padding-left: 19px;
 }
 
 .content-section__list-item {
-  padding-top: 16px;
   line-height: 135%;
 }
 
